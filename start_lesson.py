@@ -15,6 +15,11 @@ while run:
                 print('Нажат пробел.')
             else:
                 print('Нажата кнопка на клавиатуре')
+                
+            if event.key == pygame.K_a and event.mod & pygame.KMOD_SHIFT:
+                print('Большая А')
+            elif event.key == pygame.K_n and event.mod & pygame.KMOD_SHIFT:
+                print('Большая N')
 
         if event.type == pygame.MOUSEBUTTONDOWN:  # проверяем, что нажата кнопка мыши
             if event.button == 1:
