@@ -67,7 +67,7 @@ screen.blit(fox, (0, 0))
 new_bee1 = pygame.transform.scale(bee, (200, 184))  # изменяем размер пчелы на 200х184
 
 new_bee2 = pygame.transform.flip(bee, False, True)  # поворачиваем пчелу по оси Oy (зеркально отображаем сверху вниз)
-new_bee3 = pygame.transform.flip(bee, False, True)  # поворачиваем пчелу по оси Ox (зеркально отображаем слева направо)
+new_bee3 = pygame.transform.flip(bee, True, False)  # поворачиваем пчелу по оси Ox (зеркально отображаем слева направо)
 
 new_bee4 = pygame.transform.rotate(bee, 90)  # поворачиваем пчелу влево на 90 градусов
 new_bee5 = pygame.transform.rotate(bee, -90)  # поворачиваем пчелу вправо на 90 градусов
