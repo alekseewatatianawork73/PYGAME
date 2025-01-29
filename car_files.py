@@ -7,7 +7,7 @@ from button import Button
 pygame.init()
 
 # создание нового файла с текущим рекордом 0, если его не существовало
-f_records = open('records.txt', 'a+')
+f_records = open('records.txt', 'a')
 f_records.write('0\n')
 f_records.close()
 
