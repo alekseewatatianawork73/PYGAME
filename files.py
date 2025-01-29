@@ -36,7 +36,7 @@ text2 = file.read(5)
 # чтение первой строки
 string1 = file.readline()
 # чтение второй строки
-string2 = file.readline(2)
+string2 = file.readline()
 # чтение всех строк в файле (получим список строк)
 all_strings = file.readlines()
 
