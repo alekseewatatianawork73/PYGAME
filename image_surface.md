@@ -19,6 +19,7 @@ star = pg.image.load("images/star.png")
 Помни, что загруженная картинка — это тоже `Surface`.
 
 Сайт с картинками: https://www.pngwing.com/ru
+
 Константы для кнопок клавиатуры: https://docs.google.com/spreadsheets/d/1zq2GIpAd6wT97Dq_lw_JLK3rTE-s1FWfT7RaNomu7Sc/edit?usp=sharing
 
 ## Задание 1. Космический фон
